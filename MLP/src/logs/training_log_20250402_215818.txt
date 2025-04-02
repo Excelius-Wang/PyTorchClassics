@@ -1,0 +1,94 @@
+===========2025-04-02 21:58:18===========
+Using Device: cuda
+
+===========2025-04-02 21:58:18===========
+Training started at: 2025-04-02 21:58:18
+
+===========2025-04-02 21:58:18===========
+{'seed': 42, 'batch_size': 512, 'num_epochs': 15, 'learning_rate': 0.001, 'weight_decay': 0.0001, 'hidden_dims': 256, 'dropout_rate': 0.2, 'layer_num': 5, 'use_batch_norm': True, 'use_dropout': True, 'use_scheduler': True}
+
+===========2025-04-02 21:58:18===========
+Total Parameters: 402,954
+
+===========2025-04-02 21:58:24===========
+✅ The model has been saved! New best accuracy: 95.91%
+
+===========2025-04-02 21:58:24===========
+Epoch 1: Train Loss: 0.3509 | Train Acc: 90.14% | Test Loss: 0.1298 | Test Acc: 95.91% | LR: 0.001000
+
+===========2025-04-02 21:58:30===========
+✅ The model has been saved! New best accuracy: 97.34%
+
+===========2025-04-02 21:58:30===========
+Epoch 2: Train Loss: 0.1304 | Train Acc: 96.04% | Test Loss: 0.0858 | Test Acc: 97.34% | LR: 0.001000
+
+===========2025-04-02 21:58:36===========
+✅ The model has been saved! New best accuracy: 97.66%
+
+===========2025-04-02 21:58:36===========
+Epoch 3: Train Loss: 0.0990 | Train Acc: 96.94% | Test Loss: 0.0734 | Test Acc: 97.66% | LR: 0.001000
+
+===========2025-04-02 21:58:42===========
+✅ The model has been saved! New best accuracy: 97.96%
+
+===========2025-04-02 21:58:42===========
+Epoch 4: Train Loss: 0.0818 | Train Acc: 97.44% | Test Loss: 0.0661 | Test Acc: 97.96% | LR: 0.001000
+
+===========2025-04-02 21:58:48===========
+✅ The model has been saved! New best accuracy: 98.07%
+
+===========2025-04-02 21:58:48===========
+Epoch 5: Train Loss: 0.0706 | Train Acc: 97.77% | Test Loss: 0.0684 | Test Acc: 98.07% | LR: 0.001000
+
+===========2025-04-02 21:58:54===========
+✅ The model has been saved! New best accuracy: 98.25%
+
+===========2025-04-02 21:58:54===========
+Epoch 6: Train Loss: 0.0629 | Train Acc: 97.99% | Test Loss: 0.0599 | Test Acc: 98.25% | LR: 0.001000
+
+===========2025-04-02 21:59:00===========
+Epoch 7: Train Loss: 0.0540 | Train Acc: 98.27% | Test Loss: 0.0641 | Test Acc: 98.17% | LR: 0.001000
+
+===========2025-04-02 21:59:06===========
+Epoch 8: Train Loss: 0.0479 | Train Acc: 98.46% | Test Loss: 0.0558 | Test Acc: 98.20% | LR: 0.001000
+
+===========2025-04-02 21:59:12===========
+✅ The model has been saved! New best accuracy: 98.31%
+
+===========2025-04-02 21:59:12===========
+Epoch 9: Train Loss: 0.0417 | Train Acc: 98.64% | Test Loss: 0.0613 | Test Acc: 98.31% | LR: 0.001000
+
+===========2025-04-02 21:59:18===========
+Epoch 10: Train Loss: 0.0427 | Train Acc: 98.57% | Test Loss: 0.0588 | Test Acc: 98.17% | LR: 0.001000
+
+===========2025-04-02 21:59:23===========
+✅ The model has been saved! New best accuracy: 98.34%
+
+===========2025-04-02 21:59:23===========
+Epoch 11: Train Loss: 0.0388 | Train Acc: 98.74% | Test Loss: 0.0527 | Test Acc: 98.34% | LR: 0.001000
+
+===========2025-04-02 21:59:29===========
+Epoch 12: Train Loss: 0.0360 | Train Acc: 98.82% | Test Loss: 0.0579 | Test Acc: 98.34% | LR: 0.001000
+
+===========2025-04-02 21:59:35===========
+Epoch 13: Train Loss: 0.0326 | Train Acc: 98.92% | Test Loss: 0.0595 | Test Acc: 98.32% | LR: 0.001000
+
+===========2025-04-02 21:59:41===========
+Epoch 14: Train Loss: 0.0316 | Train Acc: 98.96% | Test Loss: 0.0608 | Test Acc: 98.21% | LR: 0.000500
+
+===========2025-04-02 21:59:47===========
+✅ The model has been saved! New best accuracy: 98.59%
+
+===========2025-04-02 21:59:47===========
+Epoch 15: Train Loss: 0.0245 | Train Acc: 99.16% | Test Loss: 0.0490 | Test Acc: 98.59% | LR: 0.000500
+
+===========2025-04-02 21:59:47===========
+
+😍 Best Accuracy: 98.59%
+
+===========2025-04-02 21:59:48===========
+Training completed at: 2025-04-02 21:59:48
+
+===========2025-04-02 21:59:48===========
+Total training time: 1.50 minutes
+
