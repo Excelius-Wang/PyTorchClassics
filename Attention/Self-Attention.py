@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-import torch.nn.functional as f
+import torch.nn.functional as F
 
 class SelfAttention(nn.Module):
     def __init__(self, embed_size):
@@ -34,10 +34,10 @@ class SelfAttention(nn.Module):
 
         # 2. 应用掩码，如果有
         if mask is not None:
-            attn_scores = attn_scores.masked_fill(mask == 0, float('-inf'))
+            attn_scores = attn_scores.masked_fill(mask == 0, -1e9)
 
         # 3. 归一化, softmax
-        attn_weights = f.softmax(attn_scores, dim=-1)
+        attn_weights = F.softmax(attn_scores, dim=-1)
 
         # 4. 应用 Dropout
         attn_weights = self.attn_dropout(attn_weights)
